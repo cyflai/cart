@@ -1,0 +1,9 @@
+{application,cart,
+             [{applications,[kernel,stdlib,elixir,logger,ecto,postgrex]},
+              {description,"cart"},
+              {modules,['Elixir.Cart','Elixir.Cart.Application',
+                        'Elixir.Cart.Item','Elixir.Cart.Repo']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger,ecto,postgrex]},
+              {mod,{'Elixir.Cart.Application',[]}}]}.
